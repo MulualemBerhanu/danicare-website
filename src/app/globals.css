@@ -1,0 +1,237 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 84% 4.9%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 84% 4.9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 221.2 83.2% 53.3%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217.2 91.2% 59.8%;
+    --primary-foreground: 222.2 84% 4.9%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 224.3 76.3% 94.1%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .glassmorphism {
+    @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-dani-600 to-dani-800 bg-clip-text text-transparent;
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-to-br from-dani-50 via-white to-warm-50;
+  }
+  
+  .motion-safe\:animate-fade-in {
+    animation: fade-in 0.5s ease-out;
+  }
+  
+  .motion-safe\:animate-slide-in {
+    animation: slide-in 0.3s ease-out;
+  }
+
+  /* Hero Video Background Styles */
+  .hero-video-container {
+    @apply relative overflow-hidden;
+  }
+
+  .hero-video {
+    @apply w-full h-full object-cover;
+    filter: brightness(0.8) contrast(1.1);
+  }
+
+  .hero-overlay {
+    @apply absolute inset-0;
+    background: linear-gradient(
+      135deg,
+      rgba(30, 58, 138, 0.8) 0%,
+      rgba(59, 130, 246, 0.7) 50%,
+      rgba(245, 158, 11, 0.6) 100%
+    );
+  }
+
+  .hero-content {
+    @apply relative z-10 text-center;
+    animation: heroContentFadeIn 1s ease-out 0.5s both;
+  }
+
+  .hero-title {
+    @apply text-5xl md:text-6xl lg:text-7xl font-serif font-bold tracking-tight text-white mb-4;
+    animation: heroTitleSlideIn 1s ease-out 0.8s both;
+  }
+
+  .hero-subtitle {
+    @apply text-xl md:text-2xl leading-relaxed text-white/90 mb-12 max-w-3xl mx-auto;
+    animation: heroSubtitleFadeIn 1s ease-out 1.2s both;
+  }
+
+  .hero-cta {
+    @apply flex flex-col sm:flex-row gap-6 justify-center items-center mb-16;
+    animation: heroCTASlideIn 1s ease-out 1.5s both;
+  }
+
+  .floating-element {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .floating-element-delay-1 {
+    animation: float 6s ease-in-out infinite 1s;
+  }
+
+  .floating-element-delay-2 {
+    animation: float 6s ease-in-out infinite 2s;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Hero Animations */
+@keyframes heroContentFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroTitleSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes heroSubtitleFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes heroCTASlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* About Page Hero Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out both;
+}
+
+.animate-slide-in {
+  animation: slide-in 1s ease-out both;
+}
+
+.animate-fade-in-delay {
+  animation: fade-in 0.8s ease-out 0.3s both;
+}
+
+.animate-fade-in-delay-2 {
+  animation: fade-in 0.8s ease-out 0.6s both;
+}
+
+.animate-fade-in-delay-3 {
+  animation: fade-in 0.8s ease-out 0.9s both;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}

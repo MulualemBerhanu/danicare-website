@@ -733,7 +733,7 @@ export default function HomePage() {
               </h2>
               <p className="text-xl text-dani-100 max-w-4xl mx-auto leading-relaxed">
                 Contact us today to learn more about our services for adults with intellectual and 
-                developmental disabilities and schedule a free consultation. We're here to help you and your family.
+                developmental disabilities and schedule a free tour. We're here to help you and your family.
               </p>
             </div>
             
@@ -745,7 +745,7 @@ export default function HomePage() {
                 className="text-lg px-8 py-4 shadow-2xl hover:shadow-warm-500/25 transition-all duration-300 transform hover:scale-105"
               >
                 <Link href="/contact">
-                  Schedule Consultation
+                  Schedule For tour
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
@@ -765,7 +765,7 @@ export default function HomePage() {
             <div className="flex flex-wrap justify-center gap-8 text-white/80 mt-12">
               <div className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-warm-300" />
-                <span className="text-sm font-medium">Free Consultation</span>
+                <span className="text-sm font-medium">Free Tour</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="h-5 w-5 text-warm-300" />

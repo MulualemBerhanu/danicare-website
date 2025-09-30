@@ -6,7 +6,7 @@ import { Phone, Mail, MessageCircle, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Contact Us',
-  description: 'Get in touch with Dani Care for compassionate adult home care services in Oregon. Schedule a consultation today.',
+  description: 'Get in touch with Dani Care for compassionate adult home care services in Oregon. Schedule a tour today.',
   openGraph: {
     title: 'Contact Us | Dani Care',
     description: 'Get in touch with Dani Care for compassionate adult home care services in Oregon.',
@@ -49,7 +49,7 @@ export default function ContactPage() {
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-12 animate-fade-in-delay">
-              Get in touch with our team to learn more about our services or schedule a consultation. 
+              Get in touch with our team to learn more about our services or schedule a tour. 
               We're here to help you and your family.
             </p>
 

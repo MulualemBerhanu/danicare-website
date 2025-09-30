@@ -24,7 +24,7 @@ export function PageHero({ title, subtitle, backgroundImage, children }: PageHer
             {title}
           </h1>
           {subtitle && (
-            <p className="mt-6 text-lg leading-8 text-gray-600 max-w-3xl mx-auto">
+            <p className="mt-6 text-lg leading-8 text-gray-700 max-w-3xl mx-auto">
               {subtitle}
             </p>
           )}

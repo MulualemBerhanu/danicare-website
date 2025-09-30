@@ -210,7 +210,7 @@ export default function ServicesPage() {
             
             {/* Subtitle */}
             <div className="max-w-4xl mx-auto">
-              <p className="text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-600 mb-8 animate-fade-in-delay">
+              <p className="text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-700 mb-8 animate-fade-in-delay">
                 Comprehensive services for adults with intellectual and developmental disabilities, designed to support independence, dignity, and quality of life.
               </p>
             </div>
@@ -243,7 +243,7 @@ export default function ServicesPage() {
               </span>
             </h2>
             
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
               Our fundamental services focus on maintaining independence and dignity while providing 
               the support needed for daily living activities for adults with intellectual and developmental disabilities.
             </p>
@@ -260,7 +260,7 @@ export default function ServicesPage() {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-2xl font-bold text-gray-900 mb-3">{service.title}</h3>
-                      <p className="text-gray-600 leading-relaxed">{service.description}</p>
+                      <p className="text-gray-700 leading-relaxed">{service.description}</p>
                     </div>
                   </div>
                   
@@ -300,7 +300,7 @@ export default function ServicesPage() {
               </span>
             </h2>
             
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
               Additional services designed to enhance quality of life and support specific needs 
               and preferences for adults with intellectual and developmental disabilities.
             </p>
@@ -317,7 +317,7 @@ export default function ServicesPage() {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-2xl font-bold text-gray-900 mb-3">{service.title}</h3>
-                      <p className="text-gray-600 leading-relaxed">{service.description}</p>
+                      <p className="text-gray-700 leading-relaxed">{service.description}</p>
                     </div>
                   </div>
                   
@@ -346,7 +346,7 @@ export default function ServicesPage() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">Direct Nursing Services</h3>
-                    <p className="text-gray-600 leading-relaxed">Comprehensive medical care and support for complex health needs.</p>
+                    <p className="text-gray-700 leading-relaxed">Comprehensive medical care and support for complex health needs.</p>
                   </div>
                 </div>
                 
@@ -385,7 +385,7 @@ export default function ServicesPage() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">Safety & Security Features</h3>
-                    <p className="text-gray-600 leading-relaxed">Advanced safety systems and security measures for complete protection.</p>
+                    <p className="text-gray-700 leading-relaxed">Advanced safety systems and security measures for complete protection.</p>
                   </div>
                 </div>
                 
@@ -509,7 +509,7 @@ export default function ServicesPage() {
                       <value.icon className={`h-10 w-10 bg-gradient-to-r ${value.gradient} bg-clip-text text-transparent`} />
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-4">{value.title}</h3>
-                    <p className="text-gray-600 leading-relaxed">{value.description}</p>
+                    <p className="text-gray-700 leading-relaxed">{value.description}</p>
                   </div>
                 </div>
               ))}

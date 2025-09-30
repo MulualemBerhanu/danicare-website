@@ -126,7 +126,7 @@ export default function GalleryPage() {
               </span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-12 animate-fade-in-delay">
+            <p className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed mb-12 animate-fade-in-delay">
               Take a virtual tour of our adult care facilities and discover the comfortable, 
               welcoming environments and amenities where we provide compassionate care.
             </p>
@@ -155,7 +155,7 @@ export default function GalleryPage() {
               </span>
             </h2>
             
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
               Discover the warm, welcoming environments where we provide exceptional care for adults 
               with intellectual and developmental disabilities.
             </p>
@@ -187,7 +187,7 @@ export default function GalleryPage() {
               </span>
             </h2>
             
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
               Our facilities are designed with your comfort and convenience in mind, featuring 
               modern amenities that enhance your experience and support your independence.
             </p>
@@ -203,7 +203,7 @@ export default function GalleryPage() {
                       <amenity.icon className={`h-8 w-8 bg-gradient-to-r ${amenity.gradient} bg-clip-text text-transparent`} />
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-4">{amenity.title}</h3>
-                    <p className="text-gray-600 leading-relaxed">{amenity.description}</p>
+                    <p className="text-gray-700 leading-relaxed">{amenity.description}</p>
                   </div>
                 </div>
               </div>

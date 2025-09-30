@@ -98,7 +98,7 @@ export default function AboutPage() {
             
                          {/* Subtitle */}
              <div className="max-w-4xl mx-auto">
-               <p className="text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-600 mb-8 animate-fade-in-delay">
+               <p className="text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-700 mb-8 animate-fade-in-delay">
                  Our story, mission, and commitment to providing exceptional adult home care services in Oregon.
                </p>
              </div>
@@ -128,7 +128,7 @@ export default function AboutPage() {
                 </span>
               </h2>
               
-              <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
+              <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <div className="p-6 bg-white/60 backdrop-blur-sm rounded-2xl border border-white/30 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-1">
                   <p>
                     Dani Care Inc was founded with a clear mission: to build lasting relationships with individuals, families, and communities, while improving the quality of life for those we serve through extraordinary service and compassionate care.
@@ -275,7 +275,7 @@ export default function AboutPage() {
               </div>
             </div>
             
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto mt-12 leading-relaxed">
+            <p className="text-xl text-gray-700 max-w-4xl mx-auto mt-12 leading-relaxed">
               We believe every individual with intellectual and developmental disabilities deserves 
               to live with dignity, independence, and the comfort of familiar surroundings. Our 
               person-centered approach ensures that each client receives care that respects their 
@@ -295,7 +295,7 @@ export default function AboutPage() {
                     <value.icon className={`h-10 w-10 bg-gradient-to-r ${value.gradient} bg-clip-text text-transparent`} />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">{value.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{value.description}</p>
+                  <p className="text-gray-700 leading-relaxed">{value.description}</p>
                 </div>
               </div>
             ))}

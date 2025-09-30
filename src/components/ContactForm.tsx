@@ -221,7 +221,7 @@ export function ContactForm({ defaultBranch }: ContactFormProps) {
           <h3 className="text-lg font-semibold text-gray-900 mb-3">
             {selectedBranchData.name}
           </h3>
-          <div className="space-y-2 text-sm text-gray-600">
+          <div className="space-y-2 text-sm text-gray-700">
             <p>{selectedBranchData.address}</p>
             <p>Phone: {selectedBranchData.phone}</p>
             <p>Hours: {selectedBranchData.hours}</p>

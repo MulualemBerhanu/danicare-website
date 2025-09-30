@@ -51,7 +51,7 @@ export default function LocationsPage() {
               </span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-12 animate-fade-in-delay">
+            <p className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed mb-12 animate-fade-in-delay">
               Visit our two convenient locations in Gresham, Oregon. Each location offers the same 
               high-quality, compassionate adult care services.
             </p>
@@ -63,7 +63,7 @@ export default function LocationsPage() {
                   <MapPin className="h-6 w-6 text-dani-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">2 Locations</h3>
-                <p className="text-gray-600 text-sm">Conveniently located in Gresham, Oregon</p>
+                <p className="text-gray-700 text-sm">Conveniently located in Gresham, Oregon</p>
               </div>
               
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-white/30">
@@ -71,7 +71,7 @@ export default function LocationsPage() {
                   <Clock className="h-6 w-6 text-dani-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">24/7 Care</h3>
-                <p className="text-gray-600 text-sm">Round-the-clock support and monitoring</p>
+                <p className="text-gray-700 text-sm">Round-the-clock support and monitoring</p>
               </div>
               
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-white/30">
@@ -79,7 +79,7 @@ export default function LocationsPage() {
                   <Phone className="h-6 w-6 text-dani-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Easy Contact</h3>
-                <p className="text-gray-600 text-sm">Direct phone lines for each location</p>
+                <p className="text-gray-700 text-sm">Direct phone lines for each location</p>
               </div>
             </div>
           </div>

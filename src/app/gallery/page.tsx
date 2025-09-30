@@ -351,10 +351,10 @@ export default function GalleryPage() {
                   </Link>
                 </Button>
                 <Button 
-                  variant="outline" 
+                  variant="dani" 
                   size="lg" 
                   asChild 
-                  className="text-lg px-8 py-4 border-white text-white hover:bg-white hover:text-dani-600 shadow-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1"
+                  className="text-lg px-8 py-4 shadow-2xl transition-all duration-300 transform hover:scale-105 hover:-translate-y-1"
                 >
                   <Link href="/contact">
                     Contact Us

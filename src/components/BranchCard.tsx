@@ -24,7 +24,7 @@ export function BranchCard({ branch, showMap = true }: BranchCardProps) {
         <div className="flex items-start space-x-3">
           <MapPin className="h-5 w-5 text-dani-600 mt-0.5 flex-shrink-0" />
           <div className="flex-1">
-            <p className="text-sm text-gray-700 leading-relaxed">
+            <p className="text-sm text-gray-800 leading-relaxed">
               {branch.address}
             </p>
             <a 
@@ -44,7 +44,7 @@ export function BranchCard({ branch, showMap = true }: BranchCardProps) {
           <div className="flex items-center space-x-3">
             <Phone className="h-5 w-5 text-dani-600 flex-shrink-0" />
             <div>
-              <p className="text-sm text-gray-700">
+              <p className="text-sm text-gray-800">
                 <span className="font-medium">Mobile:</span>{' '}
                 <Link 
                   href={`tel:${branch.phone}`}
@@ -59,7 +59,7 @@ export function BranchCard({ branch, showMap = true }: BranchCardProps) {
           <div className="flex items-center space-x-3">
             <Phone className="h-5 w-5 text-dani-600 flex-shrink-0" />
             <div>
-              <p className="text-sm text-gray-700">
+              <p className="text-sm text-gray-800">
                 <span className="font-medium">Landline:</span>{' '}
                 <Link 
                   href={`tel:${branch.landline}`}
@@ -76,7 +76,7 @@ export function BranchCard({ branch, showMap = true }: BranchCardProps) {
         <div className="flex items-start space-x-3">
           <Clock className="h-5 w-5 text-dani-600 mt-0.5 flex-shrink-0" />
           <div>
-            <p className="text-sm text-gray-700">
+            <p className="text-sm text-gray-800">
               <span className="font-medium">Hours:</span> {branch.hours}
             </p>
           </div>
@@ -86,7 +86,7 @@ export function BranchCard({ branch, showMap = true }: BranchCardProps) {
         <div className="flex items-start space-x-3">
           <FileText className="h-5 w-5 text-dani-600 mt-0.5 flex-shrink-0" />
           <div>
-            <p className="text-sm text-gray-700">
+            <p className="text-sm text-gray-800">
               <span className="font-medium">Fax:</span> {branch.fax}
             </p>
           </div>

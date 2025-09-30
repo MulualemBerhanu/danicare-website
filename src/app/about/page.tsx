@@ -98,7 +98,7 @@ export default function AboutPage() {
             
                          {/* Subtitle */}
              <div className="max-w-4xl mx-auto">
-               <p className="text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-700 mb-8 animate-fade-in-delay">
+               <p className="text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800 mb-8 animate-fade-in-delay">
                  Our story, mission, and commitment to providing exceptional adult home care services in Oregon.
                </p>
              </div>
@@ -128,7 +128,7 @@ export default function AboutPage() {
                 </span>
               </h2>
               
-              <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+              <div className="space-y-6 text-lg text-gray-800 leading-relaxed">
                 <div className="p-6 bg-white/60 backdrop-blur-sm rounded-2xl border border-white/30 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-1">
                   <p>
                     Dani Care Inc was founded with a clear mission: to build lasting relationships with individuals, families, and communities, while improving the quality of life for those we serve through extraordinary service and compassionate care.
@@ -205,7 +205,7 @@ export default function AboutPage() {
               <div className="relative bg-white/80 backdrop-blur-md rounded-3xl border border-white/30 shadow-2xl group-hover:shadow-3xl transition-all duration-700 p-12">
                 <div className="space-y-8">
                   <div className="p-8 bg-gradient-to-r from-dani-50 to-warm-50 rounded-2xl border border-dani-100/50">
-                    <p className="text-xl text-gray-700 leading-relaxed">
+                    <p className="text-xl text-gray-800 leading-relaxed">
                       <strong className="text-dani-700">Dani Care-Inc</strong> is committed to providing continuous care and service to adults with 
                       intellectual and developmental disabilities in a home-like environment created to 
                       further improve the quality of life and strengthen each individual we serve.
@@ -213,7 +213,7 @@ export default function AboutPage() {
                   </div>
                   
                   <div className="p-8 bg-gradient-to-r from-warm-50 to-dani-50 rounded-2xl border border-warm-100/50">
-                    <p className="text-xl text-gray-700 leading-relaxed">
+                    <p className="text-xl text-gray-800 leading-relaxed">
                       At Dani Care-Inc, our clients will engage in social interactions as they get support 
                       with personal care, medications, health-related activities, money management, 
                       housekeeping, and transportation to appointments, etc., in order to enhance their 
@@ -223,7 +223,7 @@ export default function AboutPage() {
                   </div>
                   
                   <div className="p-8 bg-gradient-to-r from-dani-50 to-warm-50 rounded-2xl border border-dani-100/50">
-                    <p className="text-xl text-gray-700 leading-relaxed">
+                    <p className="text-xl text-gray-800 leading-relaxed">
                       Dani Care-Inc, its President/Director <strong className="text-dani-700">Daniel Zewelde</strong> and employees will know and follow the laws 
                       and rules as put into place by the Oregon Administrative Rules (OAR's). At Dani 
                       Care-Inc, we strive to go above and beyond the requirements of the Home and 
@@ -266,7 +266,7 @@ export default function AboutPage() {
                   <h3 className="text-3xl font-serif font-bold text-gray-900 mb-6">
                     Mission Statement
                   </h3>
-                  <p className="text-xl text-gray-700 leading-relaxed">
+                  <p className="text-xl text-gray-800 leading-relaxed">
                     Our mission is to develop a shared relationship with all stakeholders and improve 
                     the quality of life for those we serve, while providing an extraordinary service 
                     and compassionate care.
@@ -275,7 +275,7 @@ export default function AboutPage() {
               </div>
             </div>
             
-            <p className="text-xl text-gray-700 max-w-4xl mx-auto mt-12 leading-relaxed">
+            <p className="text-xl text-gray-800 max-w-4xl mx-auto mt-12 leading-relaxed">
               We believe every individual with intellectual and developmental disabilities deserves 
               to live with dignity, independence, and the comfort of familiar surroundings. Our 
               person-centered approach ensures that each client receives care that respects their 
@@ -295,7 +295,7 @@ export default function AboutPage() {
                     <value.icon className={`h-10 w-10 bg-gradient-to-r ${value.gradient} bg-clip-text text-transparent`} />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">{value.title}</h3>
-                  <p className="text-gray-700 leading-relaxed">{value.description}</p>
+                  <p className="text-gray-800 leading-relaxed">{value.description}</p>
                 </div>
               </div>
             ))}
@@ -342,13 +342,13 @@ export default function AboutPage() {
                 </div>
                 
                 <div className="p-8 bg-gradient-to-r from-dani-50 to-warm-50 rounded-2xl border border-dani-100/50 mb-12">
-                  <p className="text-xl text-gray-700 leading-relaxed">
+                  <p className="text-xl text-gray-800 leading-relaxed">
                     Daniel Zewelde, Nurse and Co-Founder, serves as the Executive Director of Dani Care Inc. 
                     He brings over a decade of combined nursing and home management experience, with a background 
                     at Legacy Mount Hood Medical Center and Vibra Specialty Hospital.
                   </p>
                   <br />
-                  <p className="text-xl text-gray-700 leading-relaxed">
+                  <p className="text-xl text-gray-800 leading-relaxed">
                     Since 2017, Daniel has also operated licensed foster and group homes for adults with 
                     intellectual and developmental disabilities, ensuring compliance with Oregon Administrative 
                     Rules (OAR) and delivering person-centered care. His leadership combines clinical expertise, 
@@ -367,7 +367,7 @@ export default function AboutPage() {
                           </div>
                           Leadership & Strategic Management
                         </h4>
-                        <ul className="space-y-3 text-gray-700">
+                        <ul className="space-y-3 text-gray-800">
                           <li className="flex items-start space-x-3">
                             <span className="text-dani-600 font-bold mt-1">•</span>
                             <span>Oversees agency mission, vision, and core values achievement</span>
@@ -396,7 +396,7 @@ export default function AboutPage() {
                           </div>
                           Quality Assurance & Compliance
                         </h4>
-                        <ul className="space-y-3 text-gray-700">
+                        <ul className="space-y-3 text-gray-800">
                           <li className="flex items-start space-x-3">
                             <span className="text-dani-600 font-bold mt-1">•</span>
                             <span>Ensures compliance with federal, state, and local regulations</span>
@@ -427,7 +427,7 @@ export default function AboutPage() {
                           </div>
                           Person-Centered Care & Support
                         </h4>
-                        <ul className="space-y-3 text-gray-700">
+                        <ul className="space-y-3 text-gray-800">
                           <li className="flex items-start space-x-3">
                             <span className="text-dani-600 font-bold mt-1">•</span>
                             <span>Facilitates person-centered planning and implementation</span>
@@ -456,7 +456,7 @@ export default function AboutPage() {
                           </div>
                           Financial & Operational Management
                         </h4>
-                        <ul className="space-y-3 text-gray-700">
+                        <ul className="space-y-3 text-gray-800">
                           <li className="flex items-start space-x-3">
                             <span className="text-dani-600 font-bold mt-1">•</span>
                             <span>Develops and maintains program budgets</span>
@@ -480,7 +480,7 @@ export default function AboutPage() {
                 </div>
 
                 <div className="mt-12 p-8 bg-gradient-to-r from-dani-50 to-warm-50 rounded-2xl border border-dani-100/50">
-                  <p className="text-xl text-gray-700 leading-relaxed">
+                  <p className="text-xl text-gray-800 leading-relaxed">
                     Daniel's comprehensive leadership ensures that Dani Care Inc maintains the highest 
                     standards of care while fostering an environment that promotes the welfare, dignity, 
                     and independence of every individual we serve. His commitment to excellence and 

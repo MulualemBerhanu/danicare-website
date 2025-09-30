@@ -210,7 +210,7 @@ export default function ServicesPage() {
             
             {/* Subtitle */}
             <div className="max-w-4xl mx-auto">
-              <p className="text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-700 mb-8 animate-fade-in-delay">
+              <p className="text-xl md:text-2xl lg:text-3xl leading-relaxed text-gray-800 mb-8 animate-fade-in-delay">
                 Comprehensive services for adults with intellectual and developmental disabilities, designed to support independence, dignity, and quality of life.
               </p>
             </div>
@@ -243,7 +243,7 @@ export default function ServicesPage() {
               </span>
             </h2>
             
-            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-800 max-w-4xl mx-auto leading-relaxed">
               Our fundamental services focus on maintaining independence and dignity while providing 
               the support needed for daily living activities for adults with intellectual and developmental disabilities.
             </p>
@@ -260,7 +260,7 @@ export default function ServicesPage() {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-2xl font-bold text-gray-900 mb-3">{service.title}</h3>
-                      <p className="text-gray-700 leading-relaxed">{service.description}</p>
+                      <p className="text-gray-800 leading-relaxed">{service.description}</p>
                     </div>
                   </div>
                   
@@ -268,7 +268,7 @@ export default function ServicesPage() {
                     {service.details.map((detail, detailIndex) => (
                       <li key={detailIndex} className="flex items-start space-x-3">
                         <CheckCircle className="h-5 w-5 text-dani-600 mt-0.5 flex-shrink-0" />
-                        <span className="text-gray-700">{detail}</span>
+                        <span className="text-gray-800">{detail}</span>
                       </li>
                     ))}
                   </ul>
@@ -300,7 +300,7 @@ export default function ServicesPage() {
               </span>
             </h2>
             
-            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-800 max-w-4xl mx-auto leading-relaxed">
               Additional services designed to enhance quality of life and support specific needs 
               and preferences for adults with intellectual and developmental disabilities.
             </p>
@@ -317,7 +317,7 @@ export default function ServicesPage() {
                     </div>
                     <div className="flex-1">
                       <h3 className="text-2xl font-bold text-gray-900 mb-3">{service.title}</h3>
-                      <p className="text-gray-700 leading-relaxed">{service.description}</p>
+                      <p className="text-gray-800 leading-relaxed">{service.description}</p>
                     </div>
                   </div>
                   
@@ -325,7 +325,7 @@ export default function ServicesPage() {
                     {service.details.map((detail, detailIndex) => (
                       <li key={detailIndex} className="flex items-start space-x-3">
                         <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                        <span className="text-gray-700">{detail}</span>
+                        <span className="text-gray-800">{detail}</span>
                       </li>
                     ))}
                   </ul>
@@ -346,30 +346,30 @@ export default function ServicesPage() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">Direct Nursing Services</h3>
-                    <p className="text-gray-700 leading-relaxed">Comprehensive medical care and support for complex health needs.</p>
+                    <p className="text-gray-800 leading-relaxed">Comprehensive medical care and support for complex health needs.</p>
                   </div>
                 </div>
                 
                 <ul className="space-y-3">
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700"><strong>IV therapy</strong> and medication management</span>
+                    <span className="text-gray-800"><strong>IV therapy</strong> and medication management</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700"><strong>Wound care</strong> and treatment</span>
+                    <span className="text-gray-800"><strong>Wound care</strong> and treatment</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700"><strong>Ventilator support</strong> for respiratory needs</span>
+                    <span className="text-gray-800"><strong>Ventilator support</strong> for respiratory needs</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700"><strong>Feeding tube</strong> management and care</span>
+                    <span className="text-gray-800"><strong>Feeding tube</strong> management and care</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700"><strong>Tracheostomy care</strong> and monitoring</span>
+                    <span className="text-gray-800"><strong>Tracheostomy care</strong> and monitoring</span>
                   </li>
                 </ul>
               </div>
@@ -385,22 +385,22 @@ export default function ServicesPage() {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold text-gray-900 mb-3">Safety & Security Features</h3>
-                    <p className="text-gray-700 leading-relaxed">Advanced safety systems and security measures for complete protection.</p>
+                    <p className="text-gray-800 leading-relaxed">Advanced safety systems and security measures for complete protection.</p>
                   </div>
                 </div>
                 
                 <ul className="space-y-3">
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700"><strong>Fire sprinkler system</strong> for complete fire protection</span>
+                    <span className="text-gray-800"><strong>Fire sprinkler system</strong> for complete fire protection</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700"><strong>Backup generator</strong> for power outage protection</span>
+                    <span className="text-gray-800"><strong>Backup generator</strong> for power outage protection</span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700"><strong>Clean, loving environment</strong> with quality care</span>
+                    <span className="text-gray-800"><strong>Clean, loving environment</strong> with quality care</span>
                   </li>
                 </ul>
               </div>
@@ -435,7 +435,7 @@ export default function ServicesPage() {
                   </div>
                   
                   {/* Main content */}
-                  <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+                  <p className="text-lg text-gray-800 mb-8 leading-relaxed">
                     Dani Care, Inc. is proudly endorsed and licensed by the Oregon Department of Human Services (DHS), Developmental Disability Services.
                   </p>
                   
@@ -490,7 +490,7 @@ export default function ServicesPage() {
               <div className="relative group">
                 <div className="absolute inset-0 bg-gradient-to-br from-dani-200/20 via-warm-200/15 to-dani-300/20 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-700"></div>
                 <div className="relative bg-white/80 backdrop-blur-md rounded-3xl border border-white/30 shadow-2xl group-hover:shadow-3xl transition-all duration-700 p-12">
-                  <p className="text-xl text-gray-700 leading-relaxed">
+                  <p className="text-xl text-gray-800 leading-relaxed">
                     Every care plan is uniquely tailored to respect individual preferences, promote autonomy, 
                     and support community integration. We believe in empowering our clients with intellectual 
                     and developmental disabilities to make choices about their care while providing the support 
@@ -509,7 +509,7 @@ export default function ServicesPage() {
                       <value.icon className={`h-10 w-10 bg-gradient-to-r ${value.gradient} bg-clip-text text-transparent`} />
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-4">{value.title}</h3>
-                    <p className="text-gray-700 leading-relaxed">{value.description}</p>
+                    <p className="text-gray-800 leading-relaxed">{value.description}</p>
                   </div>
                 </div>
               ))}

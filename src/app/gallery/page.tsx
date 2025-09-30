@@ -126,7 +126,7 @@ export default function GalleryPage() {
               </span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed mb-12 animate-fade-in-delay">
+            <p className="text-xl md:text-2xl text-gray-800 max-w-4xl mx-auto leading-relaxed mb-12 animate-fade-in-delay">
               Take a virtual tour of our adult care facilities and discover the comfortable, 
               welcoming environments and amenities where we provide compassionate care.
             </p>
@@ -155,7 +155,7 @@ export default function GalleryPage() {
               </span>
             </h2>
             
-            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-800 max-w-4xl mx-auto leading-relaxed">
               Discover the warm, welcoming environments where we provide exceptional care for adults 
               with intellectual and developmental disabilities.
             </p>
@@ -187,7 +187,7 @@ export default function GalleryPage() {
               </span>
             </h2>
             
-            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-800 max-w-4xl mx-auto leading-relaxed">
               Our facilities are designed with your comfort and convenience in mind, featuring 
               modern amenities that enhance your experience and support your independence.
             </p>
@@ -203,7 +203,7 @@ export default function GalleryPage() {
                       <amenity.icon className={`h-8 w-8 bg-gradient-to-r ${amenity.gradient} bg-clip-text text-transparent`} />
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-4">{amenity.title}</h3>
-                    <p className="text-gray-700 leading-relaxed">{amenity.description}</p>
+                    <p className="text-gray-800 leading-relaxed">{amenity.description}</p>
                   </div>
                 </div>
               </div>
@@ -239,15 +239,15 @@ export default function GalleryPage() {
               <div className="group">
                 <div className="absolute inset-0 bg-gradient-to-br from-dani-200/20 via-warm-200/15 to-dani-300/20 rounded-3xl blur-2xl group-hover:blur-3xl transition-all duration-700"></div>
                 <div className="relative bg-white/80 backdrop-blur-sm rounded-3xl border border-white/30 shadow-xl group-hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 p-8">
-                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  <p className="text-lg text-gray-800 leading-relaxed mb-6">
                     Every aspect of our facilities has been thoughtfully designed to create a warm, 
                     welcoming environment where you can feel comfortable and supported.
                   </p>
-                  <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                  <p className="text-lg text-gray-800 leading-relaxed mb-6">
                     From our accessible design features to our comfortable common areas, we've created 
                     spaces that promote independence, social connection, and overall well-being.
                   </p>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <p className="text-lg text-gray-800 leading-relaxed">
                     Our amenities are regularly updated and maintained to ensure they meet the highest 
                     standards of comfort, safety, and accessibility.
                   </p>
@@ -268,19 +268,19 @@ export default function GalleryPage() {
                   <ul className="space-y-4">
                     <li className="flex items-start space-x-3">
                       <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-700">Wheelchair accessible entrances and pathways</span>
+                      <span className="text-gray-800">Wheelchair accessible entrances and pathways</span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-700">Handrails and grab bars in key areas</span>
+                      <span className="text-gray-800">Handrails and grab bars in key areas</span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-700">Accessible restrooms and facilities</span>
+                      <span className="text-gray-800">Accessible restrooms and facilities</span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-700">Emergency call systems throughout</span>
+                      <span className="text-gray-800">Emergency call systems throughout</span>
                     </li>
                   </ul>
                 </div>
@@ -298,19 +298,19 @@ export default function GalleryPage() {
                   <ul className="space-y-4">
                     <li className="flex items-start space-x-3">
                       <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-700">24/7 monitoring and security</span>
+                      <span className="text-gray-800">24/7 monitoring and security</span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-700">Emergency response systems</span>
+                      <span className="text-gray-800">Emergency response systems</span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-700">Well-lit common areas</span>
+                      <span className="text-gray-800">Well-lit common areas</span>
                     </li>
                     <li className="flex items-start space-x-3">
                       <CheckCircle className="h-5 w-5 text-warm-600 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-700">Secure entry systems</span>
+                      <span className="text-gray-800">Secure entry systems</span>
                     </li>
                   </ul>
                 </div>

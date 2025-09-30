@@ -208,7 +208,7 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-900 mb-6">
               Our <span className="bg-gradient-to-r from-dani-600 to-warm-600 bg-clip-text text-transparent">Services</span>
             </h2>
-            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-800 max-w-4xl mx-auto leading-relaxed">
               We offer a comprehensive range of services for adults with intellectual and developmental 
               disabilities, designed to meet your unique needs and help you maintain independence and dignity.
             </p>
@@ -225,7 +225,7 @@ export default function HomePage() {
                     <CardTitle className="text-xl font-bold text-gray-900">{service.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-700 leading-relaxed">{service.description}</p>
+                    <p className="text-gray-800 leading-relaxed">{service.description}</p>
                   </CardContent>
                 </Card>
               </div>
@@ -246,7 +246,7 @@ export default function HomePage() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <div className="space-y-4 text-gray-700">
+                  <div className="space-y-4 text-gray-800">
                     <p className="flex items-start space-x-3">
                       <span className="text-dani-600 font-bold mt-1">💉</span>
                       <span><strong>IV therapy</strong> and medication management</span>
@@ -284,7 +284,7 @@ export default function HomePage() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <div className="space-y-4 text-gray-700">
+                  <div className="space-y-4 text-gray-800">
                     <p className="flex items-start space-x-3">
                       <span className="text-dani-600 font-bold mt-1">🔥</span>
                       <span><strong>Fire sprinkler system</strong> for complete fire protection</span>
@@ -352,7 +352,7 @@ export default function HomePage() {
                   Dani Care Inc?
                 </span>
               </h2>
-              <p className="text-xl text-gray-700 leading-relaxed">
+              <p className="text-xl text-gray-800 leading-relaxed">
                 We believe every individual with intellectual and developmental disabilities deserves 
                 to live with dignity and independence. Our person-centered approach focuses on your 
                 unique needs, preferences, and goals.
@@ -394,7 +394,7 @@ export default function HomePage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 mb-2 text-lg">Licensed & Insured</h4>
-                      <p className="text-gray-700 text-sm leading-relaxed">Professional caregivers with full certification</p>
+                      <p className="text-gray-800 text-sm leading-relaxed">Professional caregivers with full certification</p>
                     </div>
                   </div>
                 </div>
@@ -406,7 +406,7 @@ export default function HomePage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 mb-2 text-lg">Direct Nursing Services</h4>
-                      <p className="text-gray-700 text-sm leading-relaxed">Specialized care for complex medical needs</p>
+                      <p className="text-gray-800 text-sm leading-relaxed">Specialized care for complex medical needs</p>
                     </div>
                   </div>
                 </div>
@@ -418,7 +418,7 @@ export default function HomePage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 mb-2 text-lg">ADA Accessible</h4>
-                      <p className="text-gray-700 text-sm leading-relaxed">Fully wheelchair accessible facilities</p>
+                      <p className="text-gray-800 text-sm leading-relaxed">Fully wheelchair accessible facilities</p>
                     </div>
                   </div>
                 </div>
@@ -430,7 +430,7 @@ export default function HomePage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 mb-2 text-lg">Modern Amenities</h4>
-                      <p className="text-gray-700 text-sm leading-relaxed">Spacious private rooms with luxury features</p>
+                      <p className="text-gray-800 text-sm leading-relaxed">Spacious private rooms with luxury features</p>
                     </div>
                   </div>
                 </div>
@@ -444,7 +444,7 @@ export default function HomePage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 mb-2 text-lg">Safety First</h4>
-                      <p className="text-gray-700 text-sm leading-relaxed">Advanced fire protection & backup systems</p>
+                      <p className="text-gray-800 text-sm leading-relaxed">Advanced fire protection & backup systems</p>
                     </div>
                   </div>
                 </div>
@@ -456,7 +456,7 @@ export default function HomePage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 mb-2 text-lg">Expert Team</h4>
-                      <p className="text-gray-700 text-sm leading-relaxed">Highly qualified professionals</p>
+                      <p className="text-gray-800 text-sm leading-relaxed">Highly qualified professionals</p>
                     </div>
                   </div>
                 </div>
@@ -468,7 +468,7 @@ export default function HomePage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 mb-2 text-lg">Quality Care</h4>
-                      <p className="text-gray-700 text-sm leading-relaxed">Premium nutritious meals included</p>
+                      <p className="text-gray-800 text-sm leading-relaxed">Premium nutritious meals included</p>
                     </div>
                   </div>
                 </div>
@@ -480,7 +480,7 @@ export default function HomePage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-gray-900 mb-2 text-lg">24/7 Support</h4>
-                      <p className="text-gray-700 text-sm leading-relaxed">Round-the-clock emergency response</p>
+                      <p className="text-gray-800 text-sm leading-relaxed">Round-the-clock emergency response</p>
                     </div>
                   </div>
                 </div>
@@ -518,7 +518,7 @@ export default function HomePage() {
                     Dani Care Inc?
                   </span>
                 </h2>
-                <p className="text-xl text-gray-700 leading-relaxed mb-8">
+                <p className="text-xl text-gray-800 leading-relaxed mb-8">
                   We believe every individual with intellectual and developmental disabilities deserves 
                   to live with dignity and independence. Our person-centered approach focuses on your 
                   unique needs, preferences, and goals.
@@ -535,7 +535,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Licensed & Insured</h4>
-                        <p className="text-gray-700 text-sm leading-relaxed">Professional caregivers with full certification</p>
+                        <p className="text-gray-800 text-sm leading-relaxed">Professional caregivers with full certification</p>
                       </div>
                     </div>
                   </div>
@@ -547,7 +547,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Direct Nursing Services</h4>
-                        <p className="text-gray-700 text-sm leading-relaxed">Specialized care for complex medical needs</p>
+                        <p className="text-gray-800 text-sm leading-relaxed">Specialized care for complex medical needs</p>
                       </div>
                     </div>
                   </div>
@@ -559,7 +559,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">ADA Accessible</h4>
-                        <p className="text-gray-700 text-sm leading-relaxed">Fully wheelchair accessible facilities</p>
+                        <p className="text-gray-800 text-sm leading-relaxed">Fully wheelchair accessible facilities</p>
                       </div>
                     </div>
                   </div>
@@ -571,7 +571,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Modern Amenities</h4>
-                        <p className="text-gray-700 text-sm leading-relaxed">Spacious private rooms with luxury features</p>
+                        <p className="text-gray-800 text-sm leading-relaxed">Spacious private rooms with luxury features</p>
                       </div>
                     </div>
                   </div>
@@ -585,7 +585,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Safety First</h4>
-                        <p className="text-gray-700 text-sm leading-relaxed">Advanced fire protection & backup systems</p>
+                        <p className="text-gray-800 text-sm leading-relaxed">Advanced fire protection & backup systems</p>
                       </div>
                     </div>
                   </div>
@@ -597,7 +597,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Expert Team</h4>
-                        <p className="text-gray-700 text-sm leading-relaxed">Highly qualified professionals</p>
+                        <p className="text-gray-800 text-sm leading-relaxed">Highly qualified professionals</p>
                       </div>
                     </div>
                   </div>
@@ -609,7 +609,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">Quality Care</h4>
-                        <p className="text-gray-700 text-sm leading-relaxed">Premium nutritious meals included</p>
+                        <p className="text-gray-800 text-sm leading-relaxed">Premium nutritious meals included</p>
                       </div>
                     </div>
                   </div>
@@ -621,7 +621,7 @@ export default function HomePage() {
                       </div>
                       <div>
                         <h4 className="font-bold text-gray-900 mb-2 text-lg">24/7 Support</h4>
-                        <p className="text-gray-700 text-sm leading-relaxed">Round-the-clock emergency response</p>
+                        <p className="text-gray-800 text-sm leading-relaxed">Round-the-clock emergency response</p>
                       </div>
                     </div>
                   </div>
@@ -690,7 +690,7 @@ export default function HomePage() {
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-gray-900 mb-6">
               Trusted by <span className="bg-gradient-to-r from-dani-600 to-warm-600 bg-clip-text text-transparent">Oregon Families</span>
             </h2>
-            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            <p className="text-xl text-gray-800 max-w-4xl mx-auto leading-relaxed">
               Our commitment to quality care for adults with intellectual and developmental disabilities 
               and compassionate service has made us a trusted partner for families throughout the Portland metro area.
             </p>
@@ -704,7 +704,7 @@ export default function HomePage() {
                     <badge.icon className="h-10 w-10 text-dani-600" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">{badge.title}</h3>
-                  <p className="text-gray-700 leading-relaxed">{badge.description}</p>
+                  <p className="text-gray-800 leading-relaxed">{badge.description}</p>
                 </div>
               </div>
             ))}

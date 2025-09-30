@@ -77,7 +77,7 @@ export default function HomePage() {
             className="w-full h-full object-cover"
             poster="/images/hero-pattern.svg"
           >
-            <source src="/images/Dani Care vedio.mp4" type="video/mp4" />
+            <source src="/images/dani-care-video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           

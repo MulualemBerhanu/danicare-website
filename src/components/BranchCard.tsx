@@ -39,15 +39,37 @@ export function BranchCard({ branch, showMap = true }: BranchCardProps) {
           </div>
         </div>
 
-        {/* Phone */}
-        <div className="flex items-center space-x-3">
-          <Phone className="h-5 w-5 text-dani-600 flex-shrink-0" />
-          <Link 
-            href={`tel:${branch.phone}`}
-            className="text-sm text-gray-900 hover:text-dani-600 transition-colors font-medium"
-          >
-            {formatPhoneNumber(branch.phone)}
-          </Link>
+        {/* Phone Numbers */}
+        <div className="space-y-2">
+          <div className="flex items-center space-x-3">
+            <Phone className="h-5 w-5 text-dani-600 flex-shrink-0" />
+            <div>
+              <p className="text-sm text-gray-600">
+                <span className="font-medium">Mobile:</span>{' '}
+                <Link 
+                  href={`tel:${branch.phone}`}
+                  className="text-gray-900 hover:text-dani-600 transition-colors"
+                >
+                  {formatPhoneNumber(branch.phone)}
+                </Link>
+              </p>
+            </div>
+          </div>
+          
+          <div className="flex items-center space-x-3">
+            <Phone className="h-5 w-5 text-dani-600 flex-shrink-0" />
+            <div>
+              <p className="text-sm text-gray-600">
+                <span className="font-medium">Landline:</span>{' '}
+                <Link 
+                  href={`tel:${branch.landline}`}
+                  className="text-gray-900 hover:text-dani-600 transition-colors"
+                >
+                  {formatPhoneNumber(branch.landline)}
+                </Link>
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Hours */}
@@ -60,12 +82,12 @@ export function BranchCard({ branch, showMap = true }: BranchCardProps) {
           </div>
         </div>
 
-        {/* License */}
+        {/* Fax */}
         <div className="flex items-start space-x-3">
           <FileText className="h-5 w-5 text-dani-600 mt-0.5 flex-shrink-0" />
           <div>
             <p className="text-sm text-gray-600">
-              <span className="font-medium">License:</span> {branch.licenseNumber}
+              <span className="font-medium">Fax:</span> {branch.fax}
             </p>
           </div>
         </div>

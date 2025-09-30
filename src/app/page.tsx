@@ -750,10 +750,10 @@ export default function HomePage() {
                 </Link>
               </Button>
               <Button 
-                variant="outline" 
+                variant="dani" 
                 size="lg" 
                 asChild 
-                className="text-lg px-8 py-4 border-2 border-white/30 text-white hover:bg-white hover:text-dani-600 backdrop-blur-sm transition-all duration-300 transform hover:scale-105"
+                className="text-lg px-8 py-4 backdrop-blur-sm transition-all duration-300 transform hover:scale-105"
               >
                 <Link href={`tel:${siteData.branches[0].phone}`}>
                   <Phone className="mr-2 h-5 w-5" />

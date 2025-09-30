@@ -67,23 +67,48 @@ export default function HomePage() {
     <div className="min-h-screen">
       {/* Hero Section with Video Background */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Enhanced Gradient Background */}
-        <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-dani-900 via-dani-800 to-warm-900">
-          {/* Animated gradient overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-dani-600/30 via-transparent to-warm-600/30 animate-pulse"></div>
+        {/* Video Background with Fallback */}
+        <div className="absolute inset-0 w-full h-full">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+            poster="/images/hero-pattern.svg"
+            onError={(e) => {
+              console.log('Video failed to load, falling back to gradient background');
+              e.currentTarget.style.display = 'none';
+              // Show fallback gradient
+              const fallback = document.getElementById('fallback-gradient');
+              if (fallback) fallback.style.display = 'block';
+            }}
+          >
+            <source src="/images/dani-care-video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
           
-          {/* Floating geometric shapes */}
-          <div className="absolute top-20 left-20 w-32 h-32 bg-dani-400/20 rounded-full blur-xl animate-bounce"></div>
-          <div className="absolute bottom-20 right-20 w-40 h-40 bg-warm-400/20 rounded-full blur-xl animate-bounce" style={{animationDelay: '1s'}}></div>
-          <div className="absolute top-1/2 left-1/4 w-24 h-24 bg-dani-300/30 rounded-full blur-lg animate-bounce" style={{animationDelay: '2s'}}></div>
-          <div className="absolute top-1/3 right-1/4 w-20 h-20 bg-warm-300/25 rounded-full blur-lg animate-bounce" style={{animationDelay: '0.5s'}}></div>
+          {/* Fallback Gradient Background (hidden by default) */}
+          <div id="fallback-gradient" className="absolute inset-0 w-full h-full bg-gradient-to-br from-dani-900 via-dani-800 to-warm-900" style={{display: 'none'}}>
+            {/* Animated gradient overlay */}
+            <div className="absolute inset-0 bg-gradient-to-r from-dani-600/30 via-transparent to-warm-600/30 animate-pulse"></div>
+            
+            {/* Floating geometric shapes */}
+            <div className="absolute top-20 left-20 w-32 h-32 bg-dani-400/20 rounded-full blur-xl animate-bounce"></div>
+            <div className="absolute bottom-20 right-20 w-40 h-40 bg-warm-400/20 rounded-full blur-xl animate-bounce" style={{animationDelay: '1s'}}></div>
+            <div className="absolute top-1/2 left-1/4 w-24 h-24 bg-dani-300/30 rounded-full blur-lg animate-bounce" style={{animationDelay: '2s'}}></div>
+            <div className="absolute top-1/3 right-1/4 w-20 h-20 bg-warm-300/25 rounded-full blur-lg animate-bounce" style={{animationDelay: '0.5s'}}></div>
+            
+            {/* Subtle pattern overlay */}
+            <div className="absolute inset-0 opacity-10" style={{
+              backgroundImage: `radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
+                              radial-gradient(circle at 75% 75%, rgba(245, 158, 11, 0.3) 0%, transparent 50%)`,
+              backgroundSize: '100px 100px'
+            }}></div>
+          </div>
           
-          {/* Subtle pattern overlay */}
-          <div className="absolute inset-0 opacity-10" style={{
-            backgroundImage: `radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
-                            radial-gradient(circle at 75% 75%, rgba(245, 158, 11, 0.3) 0%, transparent 50%)`,
-            backgroundSize: '100px 100px'
-          }}></div>
+          {/* Video Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-dani-900/80 via-dani-800/70 to-warm-900/60"></div>
         </div>
 
         {/* Content */}

@@ -7,7 +7,7 @@ export function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
@@ -60,34 +60,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Legal & Compliance */}
-          <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-400 mb-4">
-              Legal
-            </h3>
-            <ul className="space-y-3">
-              <li>
-                <Link href="/legal/privacy" className="text-gray-300 hover:text-white transition-colors">
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link href="/legal/nondiscrimination" className="text-gray-300 hover:text-white transition-colors">
-                  Non-Discrimination
-                </Link>
-              </li>
-              <li>
-                <a 
-                  href={siteData.complaints.web}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-white transition-colors"
-                >
-                  File a Complaint
-                </a>
-              </li>
-            </ul>
-          </div>
         </div>
 
         {/* Compliance Notice */}

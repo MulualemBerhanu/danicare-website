@@ -91,7 +91,7 @@ export default function GalleryPage() {
   return (
     <div>
       {/* Advanced Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-dani-50 via-white to-warm-50">
+      <section className="relative py-24 overflow-hidden bg-gradient-to-br from-dani-50 via-white to-warm-50">
         {/* Fixed Background Elements */}
         <div className="absolute inset-0">
           <div className="absolute top-20 left-20 w-96 h-96 bg-dani-200/20 rounded-full blur-3xl animate-pulse"></div>
@@ -126,7 +126,7 @@ export default function GalleryPage() {
               </span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-gray-900 max-w-4xl mx-auto leading-relaxed mb-12 animate-fade-in-delay">
+            <p className="text-xl md:text-2xl text-gray-900 max-w-4xl mx-auto leading-relaxed mb-8 animate-fade-in-delay">
               Take a virtual tour of our adult care facilities and discover the comfortable, 
               welcoming environments and amenities where we provide compassionate care.
             </p>

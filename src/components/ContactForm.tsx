@@ -79,7 +79,7 @@ export function ContactForm({ defaultBranch }: ContactFormProps) {
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {/* Name */}
           <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-800 mb-2">
+            <label htmlFor="name" className="block text-sm font-medium text-gray-900 mb-2">
               Full Name *
             </label>
             <Input
@@ -95,7 +95,7 @@ export function ContactForm({ defaultBranch }: ContactFormProps) {
 
           {/* Email */}
           <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-800 mb-2">
+            <label htmlFor="email" className="block text-sm font-medium text-gray-900 mb-2">
               Email Address *
             </label>
             <Input
@@ -114,7 +114,7 @@ export function ContactForm({ defaultBranch }: ContactFormProps) {
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {/* Phone */}
           <div>
-            <label htmlFor="phone" className="block text-sm font-medium text-gray-800 mb-2">
+            <label htmlFor="phone" className="block text-sm font-medium text-gray-900 mb-2">
               Phone Number *
             </label>
             <Input
@@ -131,7 +131,7 @@ export function ContactForm({ defaultBranch }: ContactFormProps) {
 
           {/* Branch Selection */}
           <div>
-            <label htmlFor="branchSlug" className="block text-sm font-medium text-gray-800 mb-2">
+            <label htmlFor="branchSlug" className="block text-sm font-medium text-gray-900 mb-2">
               Preferred Location *
             </label>
             <Select
@@ -162,7 +162,7 @@ export function ContactForm({ defaultBranch }: ContactFormProps) {
 
         {/* Message */}
         <div>
-          <label htmlFor="message" className="block text-sm font-medium text-gray-800 mb-2">
+          <label htmlFor="message" className="block text-sm font-medium text-gray-900 mb-2">
             Message *
           </label>
           <Textarea
@@ -221,7 +221,7 @@ export function ContactForm({ defaultBranch }: ContactFormProps) {
           <h3 className="text-lg font-semibold text-gray-900 mb-3">
             {selectedBranchData.name}
           </h3>
-          <div className="space-y-2 text-sm text-gray-800">
+          <div className="space-y-2 text-sm text-gray-900">
             <p>{selectedBranchData.address}</p>
             <p>Phone: {selectedBranchData.phone}</p>
             <p>Hours: {selectedBranchData.hours}</p>

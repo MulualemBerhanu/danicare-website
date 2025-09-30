@@ -48,7 +48,7 @@ export default function ContactPage() {
               </span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-gray-800 max-w-4xl mx-auto leading-relaxed mb-12 animate-fade-in-delay">
+            <p className="text-xl md:text-2xl text-gray-900 max-w-4xl mx-auto leading-relaxed mb-12 animate-fade-in-delay">
               Get in touch with our team to learn more about our services or schedule a tour. 
               We're here to help you and your family.
             </p>
@@ -60,7 +60,7 @@ export default function ContactPage() {
                   <Phone className="h-6 w-6 text-dani-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Call Us</h3>
-                <p className="text-gray-800 text-sm">Direct phone lines for each location</p>
+                <p className="text-gray-900 text-sm">Direct phone lines for each location</p>
               </div>
               
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-white/30">
@@ -68,7 +68,7 @@ export default function ContactPage() {
                   <Mail className="h-6 w-6 text-dani-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Us</h3>
-                <p className="text-gray-800 text-sm">Send us a message anytime</p>
+                <p className="text-gray-900 text-sm">Send us a message anytime</p>
               </div>
               
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-white/30">
@@ -76,7 +76,7 @@ export default function ContactPage() {
                   <MessageCircle className="h-6 w-6 text-dani-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Quick Response</h3>
-                <p className="text-gray-800 text-sm">We respond within 24 hours</p>
+                <p className="text-gray-900 text-sm">We respond within 24 hours</p>
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ export default function ContactPage() {
                 <h2 className="text-3xl font-serif font-bold text-gray-900 mb-8">
                   Get in Touch
                 </h2>
-                <p className="text-lg text-gray-800 mb-8">
+                <p className="text-lg text-gray-900 mb-8">
                   We're here to answer your questions and help you find the right adult care solution 
                   for your loved ones. Contact us today to get started.
                 </p>
@@ -116,7 +116,7 @@ export default function ContactPage() {
                     <h4 className="font-semibold text-gray-900 mb-2">
                       {branch.name}
                     </h4>
-                    <div className="space-y-2 text-sm text-gray-800">
+                    <div className="space-y-2 text-sm text-gray-900">
                       <p>{branch.address}</p>
                       <p>Phone: {branch.phone}</p>
                       <p>Email: {branch.email}</p>

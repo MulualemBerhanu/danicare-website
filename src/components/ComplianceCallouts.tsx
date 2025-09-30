@@ -58,16 +58,16 @@ export function NoPHINotice() {
   return (
     <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
       <div className="flex items-start space-x-3">
-        <Shield className="h-6 w-6 text-gray-800 mt-0.5 flex-shrink-0" />
+        <Shield className="h-6 w-6 text-gray-900 mt-0.5 flex-shrink-0" />
         <div>
           <h3 className="text-lg font-semibold text-gray-900 mb-2">
             Privacy Notice
           </h3>
-          <p className="text-gray-800 mb-4">
+          <p className="text-gray-900 mb-4">
             This contact form is for general inquiries only. Please do not include any personal health information (PHI) 
             or sensitive medical details in your message.
           </p>
-          <p className="text-sm text-gray-800">
+          <p className="text-sm text-gray-900">
             For questions about your privacy rights or to request a copy of our Notice of Privacy Practices, 
             contact us at{' '}
             <a 

@@ -33,7 +33,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-600 mb-4">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-gray-800 mb-4">
               Quick Links
             </h3>
             <ul className="space-y-3">
@@ -65,7 +65,7 @@ export function Footer() {
         {/* Compliance Notice */}
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div>
-            <h4 className="text-sm font-semibold text-gray-600 mb-2">
+            <h4 className="text-sm font-semibold text-gray-800 mb-2">
               Complaints & Concerns
             </h4>
             <p className="text-sm text-gray-300">
@@ -84,10 +84,10 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-gray-800">
           <div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-gray-800">
               © {new Date().getFullYear()} {siteData.brand.name}. All rights reserved.
             </p>
-            <p className="text-sm text-gray-600 flex items-center space-x-1">
+            <p className="text-sm text-gray-800 flex items-center space-x-1">
               <span>Made with</span>
               <Heart className="h-4 w-4 text-red-500" />
               <span>in Oregon</span>

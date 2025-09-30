@@ -200,7 +200,6 @@ This website includes required compliance elements for Oregon home care provider
 - **Section 1557**: Non-discrimination notice
 - **HIPAA**: Privacy practices notice
 - **Abuse Reporting**: Mandatory reporting information
-- **Language Access**: Translation services notice
 - **Complaints**: Oregon Health Authority contact information
 
 ## Support

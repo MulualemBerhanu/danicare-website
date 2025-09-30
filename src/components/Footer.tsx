@@ -64,30 +64,20 @@ export function Footer() {
 
         {/* Compliance Notice */}
         <div className="mt-12 pt-8 border-t border-gray-800">
-          <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-            <div>
-              <h4 className="text-sm font-semibold text-gray-400 mb-2">
-                Language Access
-              </h4>
-              <p className="text-sm text-gray-300">
-                {siteData.languageAccess.blurb}
-              </p>
-            </div>
-            <div>
-              <h4 className="text-sm font-semibold text-gray-400 mb-2">
-                Complaints & Concerns
-              </h4>
-              <p className="text-sm text-gray-300">
-                For complaints about our services, contact the Oregon Health Authority: 
-                <br />
-                <a 
-                  href={`tel:${siteData.complaints.phone}`}
-                  className="text-dani-400 hover:text-dani-300 transition-colors"
-                >
-                  {siteData.complaints.phone}
-                </a>
-              </p>
-            </div>
+          <div>
+            <h4 className="text-sm font-semibold text-gray-400 mb-2">
+              Complaints & Concerns
+            </h4>
+            <p className="text-sm text-gray-300">
+              For complaints about our services, contact the Oregon Health Authority: 
+              <br />
+              <a 
+                href={`tel:${siteData.complaints.phone}`}
+                className="text-dani-400 hover:text-dani-300 transition-colors"
+              >
+                {siteData.complaints.phone}
+              </a>
+            </p>
           </div>
         </div>
 

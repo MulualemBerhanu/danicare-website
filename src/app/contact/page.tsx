@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { ContactForm } from '@/components/ContactForm'
-import { NoPHINotice, LanguageAccessNotice, ComplaintInfo } from '@/components/ComplianceCallouts'
+import { NoPHINotice, ComplaintInfo } from '@/components/ComplianceCallouts'
 import { siteData } from '@/data/site'
 import { Phone, Mail, MessageCircle, Clock } from 'lucide-react'
 
@@ -129,7 +129,6 @@ export default function ContactPage() {
               {/* Compliance Notices */}
               <div className="space-y-6">
                 <NoPHINotice />
-                <LanguageAccessNotice />
               </div>
             </div>
           </div>

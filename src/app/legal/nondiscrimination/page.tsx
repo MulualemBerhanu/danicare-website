@@ -46,36 +46,6 @@ export default function NondiscriminationPage() {
               <li>Free language services to people whose primary language is not English</li>
             </ul>
 
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">
-              Language Access Services
-            </h3>
-            <p className="text-gray-700 mb-6">
-              {siteData.languageAccess.blurb} Dani Care provides free language services to people 
-              whose primary language is not English, such as:
-            </p>
-            <ul className="list-disc pl-6 mb-6 text-gray-700">
-              <li>Qualified interpreters</li>
-              <li>Information written in other languages</li>
-              <li>Translation services</li>
-            </ul>
-
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">
-              How to Request These Services
-            </h3>
-            <p className="text-gray-700 mb-6">
-              If you need these services, contact Dani Care at:
-            </p>
-            <div className="bg-gray-50 p-6 rounded-lg mb-6">
-              <p className="text-gray-700 mb-2">
-                <strong>Phone:</strong> {siteData.branches[0].phone}
-              </p>
-              <p className="text-gray-700 mb-2">
-                <strong>Email:</strong> {siteData.branches[0].email}
-              </p>
-              <p className="text-gray-700">
-                <strong>Address:</strong> {siteData.branches[0].address}
-              </p>
-            </div>
 
             <h3 className="text-xl font-semibold text-gray-900 mb-4">
               If You Believe That Dani Care Has Failed to Provide These Services

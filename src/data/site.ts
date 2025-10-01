@@ -54,7 +54,7 @@ export const siteData: SiteData = {
       address: "1037 SE 224th Ave, Gresham OR 97030, United States",
       phone: "(503) 419-8606",
       landline: "+1 (503) 328-8068",
-      email: "224th@danicare.com",
+      email: "Danicareinc@outlook.com",
       hours: "Mon–Fri 8am–6pm; 24/7 on-call",
       fax: "(971) 386-1353",
       mapEmbedSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.6504900123456!2d-122.4304!3d45.5000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDMwJzAwLjAiTiAxMjLCsDI1JzQ5LjQiVw!5e0!3m2!1sen!2sus!4v1234567890",
@@ -115,7 +115,7 @@ export const siteData: SiteData = {
       address: "1731 SW Willowbrook Pl, Gresham OR 97080, United States",
       phone: "(503) 419-8606",
       landline: "(503) 912-1101",
-      email: "willowbrook@danicare.com",
+      email: "Danicareinc@outlook.com",
       hours: "Mon–Fri 8am–6pm; 24/7 on-call",
       fax: "(971) 386-1353",
       mapEmbedSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.6504900123456!2d-122.4304!3d45.5000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDMwJzAwLjAiTiAxMjLCsDI1JzQ5LjQiVw!5e0!3m2!1sen!2sus!4v1234567890",
@@ -197,7 +197,7 @@ export const siteData: SiteData = {
     blurb: "Free language assistance and auxiliary aids are available upon request."
   },
   privacy: {
-    contactEmail: "privacy@danicare.com"
+    contactEmail: "Danicareinc@outlook.com"
   }
 };
 

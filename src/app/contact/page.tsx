@@ -118,8 +118,10 @@ export default function ContactPage() {
                     </h4>
                     <div className="space-y-2 text-sm text-gray-900">
                       <p>{branch.address}</p>
-                      <p>Phone: {branch.phone}</p>
+                      <p>Mobile: {branch.phone}</p>
+                      <p>Landline: {branch.landline}</p>
                       <p>Email: {branch.email}</p>
+                      <p>Fax: {branch.fax}</p>
                       <p>Hours: {branch.hours}</p>
                     </div>
                   </div>

@@ -121,7 +121,7 @@ export function ContactForm({ defaultBranch }: ContactFormProps) {
               id="phone"
               type="tel"
               {...register('phone')}
-              placeholder="(503) 419-8606"
+              placeholder="1234567890"
               className={errors.phone ? 'border-red-500' : ''}
             />
             {errors.phone && (
